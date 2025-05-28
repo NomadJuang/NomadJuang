@@ -140,3 +140,12 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+.slideshow-container {
+  max-width: 800px; /* Or whatever maximum width you desire for your slideshow */
+  position: relative; /* Needed for absolute positioning of prev/next buttons and captions */
+  margin: auto;       /* Centers the entire slideshow container horizontally on the page */
+  overflow: hidden;   /* Hides any content that goes outside the container (useful during transitions) */
+  /* Optional: Set a minimum height for consistency if slides have very different content heights */
+  min-height: 450px; /* Adjust this to a height that accommodates your tallest content */
+}
